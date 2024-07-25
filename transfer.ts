@@ -8,7 +8,7 @@ import {
 	clusterApiUrl,
 	sendAndConfirmTransaction,
 } from "@solana/web3.js";
-import wallet from "./dev-wallet.json";
+import wallet from "./wallets/dev-wallet.json";
 
 const senderKeypair = Keypair.fromSecretKey(new Uint8Array(wallet));
 const receiverPublicKey = new PublicKey(

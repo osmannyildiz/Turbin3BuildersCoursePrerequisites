@@ -1,7 +1,7 @@
 import { AnchorProvider, Program, Wallet } from "@coral-xyz/anchor";
 import { Connection, Keypair, PublicKey, clusterApiUrl } from "@solana/web3.js";
-import wallet from "./dev-wallet.json";
 import { WbaPrereq, WbaPrereqIDL } from "./programs/wba_prereq";
+import wallet from "./wallets/dev-wallet.json";
 
 const keypair = Keypair.fromSecretKey(new Uint8Array(wallet));
 

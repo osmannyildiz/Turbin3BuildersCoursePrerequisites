@@ -4,7 +4,7 @@ import {
 	LAMPORTS_PER_SOL,
 	clusterApiUrl,
 } from "@solana/web3.js";
-import wallet from "./dev-wallet.json";
+import wallet from "./wallets/dev-wallet.json";
 
 const keypair = Keypair.fromSecretKey(new Uint8Array(wallet));
 
