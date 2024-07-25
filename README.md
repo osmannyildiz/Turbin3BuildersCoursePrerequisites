@@ -1,4 +1,4 @@
-# Turbin3 Prerequisites
+# Turbin3 Builders Course Prerequisites
 
 > Here is my proof of work: https://explorer.solana.com/tx/3SC4n2Fw5FggcgrAF5qZor2W3u9MNHNuDAwDcHqt2XRZ4Xotv68qerEWvEivLkGdJC9Uf23vNJ91Bao3dfd217mh?cluster=devnet
 
@@ -46,7 +46,7 @@ In Solana, fund transfers are done via the System Program. The sender needs to s
 
 In order to be eligible for the Turbin3 Builders Course, we are required to interact with a program that's already deployed on the devnet. For this, we need the program's IDL (Interface Definition Language), which contains all the necessary information to use the program.
 
-This will run the `complete` method of the program, giving my GitHub username as an argument.
+This will call the `complete` method of the on-chain program, giving my GitHub username as an argument.
 
 ```sh
 npm run enroll
