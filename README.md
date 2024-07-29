@@ -1,4 +1,4 @@
-# Turbin3 Builders Course Prerequisites
+# Turbin3 Builders Course Prerequisites (TypeScript)
 
 > Here is my proof of work: https://explorer.solana.com/tx/3SC4n2Fw5FggcgrAF5qZor2W3u9MNHNuDAwDcHqt2XRZ4Xotv68qerEWvEivLkGdJC9Uf23vNJ91Bao3dfd217mh?cluster=devnet
 
